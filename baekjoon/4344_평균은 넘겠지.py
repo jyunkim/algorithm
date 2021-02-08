@@ -6,4 +6,4 @@ for i in range(n):
     avg = sum(score) / a[0]
     over = list(filter(lambda x: x > avg, score))
     ratio = len(over) / a[0] * 100
-    print('{:.3f}%'.format(ratio))
+    print(f'{ratio:.3f}%')
