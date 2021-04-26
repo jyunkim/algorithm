@@ -1,9 +1,10 @@
 # input보다 sys가 훨 빠름
+# readline은 끝에 개행 문자까지 포함하므로 rstrip으로 벗겨줌
 import sys
 from collections import Counter
 
-n = int(sys.stdin.readline())
-nums = [int(sys.stdin.readline()) for i in range(n)]
+n = int(sys.stdin.readline().rstrip())
+nums = [int(sys.stdin.readline().rstrip()) for i in range(n)]
 
 s = round(sum(nums) / len(nums))
 
