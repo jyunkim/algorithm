@@ -1,6 +1,6 @@
 import sys
 
-n = int(sys.stdin.readline())
+n = int(sys.stdin.readline())  # int 씌우면 개행문자 제거됨
 stk = []
 
 for _ in range(n):
