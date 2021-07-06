@@ -1,7 +1,6 @@
 # 1억 = 약 1초 소요
 # 탐색 시간 줄이는 방법
-# 1. Binary search
-# 2. Map
+# 이분 탐색, 해시
 from bisect import bisect_left
 
 n = int(input())
@@ -15,6 +14,8 @@ b = list(map(int, input().split()))
 #         print(1)
 #     else:
 #         print(0)
+
+# 이분 탐색
 a.sort()
 
 for i in b:

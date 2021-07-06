@@ -1,3 +1,4 @@
+# BFS - 최단 거리
 from collections import deque
 
 m, n = map(int, input().split())
