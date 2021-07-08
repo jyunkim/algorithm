@@ -1,6 +1,6 @@
 # 1억 = 약 1초 소요
 # 탐색 시간 줄이는 방법
-# 이분 탐색, 해시
+# 이분 탐색(정렬), 해시
 from bisect import bisect_left
 
 n = int(input())
